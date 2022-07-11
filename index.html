@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div class="text">Select Number of Columns</div>
+<div class="buttonHolder">
+    <button class="columnbut" onclick= "create1()">10</button>
+    <button class="columnbut" onclick= "create2()">25</button>
+    <button class="columnbut" onclick="create3()">50</button>
+</div>
+
+
+   <div class="center"> <div id="container"> </div></div>
+    <div class="eraserdiv">
+        <button id="eraser" onclick="eraserstat()">Eraser</button>
+        <button class="reset" onclick="resetGrid(container)">Reset</button>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
